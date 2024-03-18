@@ -22,3 +22,11 @@ function multiply(no1,no2){
 }
 var result=multiply(10,20)
 console.log(result)
+//its arguments passed methods,marks based functions ,get inputs in the user
+function calculate(tamil_mark, english_mark){
+    return tamil_mark + english_mark
+}
+var tamil = Number(prompt("enter tamil mark:"))
+var english = Number(prompt("enter english marks:"))
+var result = calculate(tamil,english)
+console.log(result)
