@@ -30,3 +30,14 @@ var tamil = Number(prompt("enter tamil mark:"))
 var english = Number(prompt("enter english marks:"))
 var result = calculate(tamil,english)
 console.log(result)
+//local and global variable
+var salary=25000//global variable
+function buy_veg(){
+    amount=200
+    console.log("buying vegetables")
+    console.log(salary)
+}
+//console.log(amount) beacuse the amount is local variable
+//console.log()
+buy_veg()
+console.log(salary)
