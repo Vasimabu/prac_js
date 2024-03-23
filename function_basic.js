@@ -80,3 +80,42 @@ console.log(isEven(5))
 //console.log()
 buy_veg()
 console.log(salary)
+//object access methods
+/*let item={
+    name:'phone',
+    parice:25000,
+    quantity:1
+}
+console.log(item)
+let item2 = new Object()
+item2.name='charger'
+item2.price=700
+item2.quantity=1
+item2.warranty='1 year'
+item2.gurantee='1 year'
+console.log(item2)
+//dot notation
+console.log(item.parice)
+item.parice=28000
+console.log(item)
+//add  new items
+item.warranty='1year'
+console.log(item)
+//square bracket notation
+console.log(item['parice'])
+item['warranty']='Not avilable'
+console.log(item)*/
+//object inside methods
+/*let item={
+    name:'phone',
+    parice:25000,
+    quantity:1,
+    buy: function(){
+        console.log('item added to cart')
+    },
+    addtolist(){
+        console.log('item added to list')
+    }
+}
+item.buy()
+item.addtolist()*/
