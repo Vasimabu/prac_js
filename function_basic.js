@@ -33,7 +33,46 @@ console.log(result)
 //local and global variable
 var salary=25000//global variable
 function buy_veg(){
-    amount=200
+    amount=200/objects for loop in for..in
+let item={
+    name:'phone',
+    parice:25000,
+    quantity:1
+}
+for(let key in item){
+    console.log(key,item[key])
+}*/
+//function declarition
+/*function Num(num){
+    return num
+}
+console.log(Num(4))
+function sayHello(){
+    console.log('hello')
+}
+sayHello()*/
+//default parameters
+/*function greet(name='there'){// defalut value
+    console.log('hi',name)
+}
+greet('abu')
+greet()*/
+//recursion - function calling itself same function
+//factorial - product of first n numbers
+/*function factorial(n){
+    if(n==1)
+        return 1
+    return n*factorial(n-1)
+}
+console.log(factorial(5))*/
+//function expression
+//assigned to a variable as object
+let a=100
+let isEven =function(num){
+    return num%2==0
+}
+console.log(isEven(5))
+//arrow fumction
     console.log("buying vegetables")
     console.log(salary)
 }
