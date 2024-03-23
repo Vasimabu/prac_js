@@ -75,7 +75,20 @@ else{
     console.log("prime")
 }*/
 //loping
-
+//while
+/*while(true){
+    let num= Number(prompt('enter a number'))
+    if(!isNaN(num))
+       break;
+}*/
+//for loop
+/*let arr=['apple','orange','banana','graphes']
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i].toUpperCase())
+}
+//arra to change valuie in other array
+for(let fruit of arr)
+   console.log(fruit)
 
 
 
