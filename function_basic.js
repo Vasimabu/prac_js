@@ -119,3 +119,9 @@ console.log(item)*/
 }
 item.buy()
 item.addtolist()*/
+//object access methods
+/*let item={
+    name:'phone',
+    parice:25000,
+    quantity:1
+}
