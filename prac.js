@@ -61,7 +61,27 @@ let B = Number(prompt("breadth of rectangle :"))
 let C = A+B
 console.log(C.toFixed(0))*/
 
+// You are given with a number "N", find its cube.
+// Input Description:
+// A positive integer is provided.
+// Output Description:
+// Find the cube of the number. 
+/*let N=Number(prompt("enter the number"))
+let ans=N**3
+console.log(ans);*/
 
+// You are given with Principle amount($), Interest Rate(%) and Time (years) in that order. Find Simple Interest.
+// Print the output up to two decimal places (Round-off if necessary).
+// (S.I. = P*T*R/100)
+// Input Description:
+// Three values are given to you as the input. these values correspond to Principle amount, Interest Rate and Time in that particular order.
+// Output Description:
+// Find the Simple interest and print it up to two decimal places. Round off if required.
+/*let A = Number(prompt("enetr the amaount :"))
+let B = Number(prompt("interest rate :"))
+let C = Number(prompt("enter the time:"))
+const ans=A*B*C/100
+console.log(ans.toFixed(2));*/
 
 
 
