@@ -135,6 +135,36 @@ for(let i=1;i<=5;i++){
     console.log(A);
 }*/
 
+// Using the method of looping, write a program to print the table of 9 till N in the format as follows:
+// (N is input by the user)
+// 9 18 27...
+// Print NULL if 0 is input
+// Input Description:
+// A positive integer is provided as an input.
+// Output Description:
+// Print the table of nine with single space between the elements till the number that is input.
+/*let N = Number(prompt("enetr the no :"))
+let sum=""
+for(let i=1;i<=3;i++){
+    sum=sum + i*N +" "
+}
+console.log(sum);*/
 
+// You are provided with a number check whether its odd or even. 
+// Print "Odd" or "Even" for the corresponding cases.
+// Note: In case of a decimal, Round off to nearest integer and then find the output. Incase the input is zero, print "Zero".
+// Input Description:
+// A number is provided as the input.
+// Output Description:
+// Find out whether the number is odd or even. Print "Odd" or "Even" for the corresponding cases. Note: In case of a decimal, Round off to nearest integer and then find the output. In case the input is zero, print "Zero".
+/*let N = Math.round(Number(prompt("enetr the no :")))
+if(N>0){
+    if(N%2==0){
+        console.log("Even");
+    }
+}
+else{
+    console.log("zero");
+}*/
 
 
