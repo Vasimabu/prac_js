@@ -83,7 +83,57 @@ let C = Number(prompt("enter the time:"))
 const ans=A*B*C/100
 console.log(ans.toFixed(2));*/
 
+// Print the First 3 multiples of the given number "N". (N is a positive integer)
+// Note: print the characters with a single space between them.
+// Input Description:
+// A positive integer is provided to you as an input.
+// Output Description:
+// Print the First 3 multiples of the number with single spaces between them as an output.
+/*let user=Number(prompt("enter the no:"))
+let i=1,sum=  ""
+while(i<=3){
+    sum=sum + i*user +" "
+    i+=1
+}
+console.log(sum);*/
 
+// You are given three numbers A, B & C. Print the largest amongst these three numbers.
+// Input Description:
+// Three numbers are provided to you.
+// Output Description:
+// Find and print the largest among the three
+/*let A = Number(prompt("enetr the no :"))
+let B = Number(prompt("enetr the no :"))
+let C = Number(prompt("enter the no :"))
+if(A>B && A>C){
+    console.log("the largest no is "+A);
+}
+else if(B>A && B>C){
+    console.log("the largest no is "+B);
+}
+else{
+    console.log("the largest no is "+C);
+}*/
+
+// You are provided with two numbers. Find and print the smaller number.
+// Input Description:
+// You are provided with two numbers as input.
+// Output Description:
+// Print the small number out of the two numbers.
+/*let A = Number(prompt("enetr the no :"))
+let B = Number(prompt("enetr the no :"))
+const ans= A<B?A:B;
+console.log(ans);*/
+
+// Write a code to get the input and print it 5 times.
+// Input Description:
+// A single line contains an integer N.
+// Output Description:
+// Output contains 5 lines with each line having the value N.
+/*let A = Number(prompt("enetr the no :"))
+for(let i=1;i<=5;i++){
+    console.log(A);
+}*/
 
 
 
