@@ -355,16 +355,54 @@ switch(true){
     age: 20,
     sex: 'male'
 }
-
-
-
-
-
-
-
 for(let fruit of arr)
    console.log(fruit)
 //objects for loop in for..in
+for(let key in person){
+    console.log(key +" : ",person[key]);
+}
+//for in loop in array
+let color=['red','blue','green','yellow']
+for(let key in color){
+    console.log(key +" : ", color[key]);
+}*/
+//for of loop
+/*let color=['red','blue','green','yellow']
+for(let colors of color){
+    console.log("colors: "+ color);
+}*/
+//object creation and function calling
+//object oriented programming
+/*let person={
+    name:"abu",
+    age: 20,
+    sex: 'male',
+    interest: ['creating, teaching new things.'],
+    isAlive: true,
+    address:{
+        city:"chennai",
+        state:"Tamilnadu"
+    },
+    greeting: function(){
+        let msg=`my name is ${this.name},i love${this.interest}`
+        console.log(msg);
+    }
+}
+person.greeting()*/
+//factory function -- dynamic functions
+function createperson(name){
+    return{
+        name: name,
+        greeting(){
+            let msg=`mhy name is${this.name}`
+            console.log(msg);
+        }
+    }
+}
+let abu=createperson("abu")
+let trisha=createperson("trisha")
+abu.greeting()
+trisha.greeting()
 
 
 
