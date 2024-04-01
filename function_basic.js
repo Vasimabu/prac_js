@@ -176,3 +176,31 @@ let abu=createperson("abu")
 let trisha=createperson("trisha")
 abu.greeting()
 trisha.greeting()
+//factory function
+/*function createperson(name){
+    return{
+        name,
+        greeting(){
+            console.log(`mhy name is${this.name}`)
+        }
+    }
+}
+//constructor function
+function Person(name){//pascal -> MyFirstName (first chracter capital)
+    this.name=name
+    this.greeting=function(){
+        console.log(`my name is ${this.name}`);
+    }
+}
+let person=new Person("abu")
+person.greeting()*/
+//dynamic object
+const person={
+    name:"abu"
+}
+person.age=24
+person.greeting=function(){}
+delete person.greeting
+console.log(person);
+
+
