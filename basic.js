@@ -291,6 +291,77 @@ for(let i=0;i<arr.length;i++){
     console.log(arr[i].toUpperCase())
 }
 //arra to change valuie in other array
+//arra to change valuie in other array
+for(let fruit of arr)
+   console.log(fruit)
+//objects for loop in for..in
+let item={
+    name:'phone',
+    parice:25000,
+    quantity:1
+}
+for(let key in item){
+    console.log(key,item[key])
+}*/
+//function declarition
+/*function Num(num){
+    return num
+}
+console.log(Num(4))
+function sayHello(){
+    console.log('hello')
+}
+sayHello()*/
+//default parameters
+/*function greet(name='there'){// defalut value
+    console.log('hi',name)
+}
+greet('abu')
+greet()*/
+//recursion - function calling itself same function
+//factorial - product of first n numbers
+/*function factorial(n){
+    if(n==1)
+        return 1
+    return n*factorial(n-1)
+}
+console.log(factorial(5))*/
+//function expression
+//assigned to a variable as object
+/*let a=100
+let isEven =function(num){
+    return num%2==0
+}
+console.log(isEven(5))*/
+//arrow fumction
+//switch case
+/*let savings=Number(prompt("enter the amount :"))
+switch(true){
+    case savings>10000:
+        console.log("Buy android mobile");
+        break
+    case savings>60000:
+        console.log("buy iphone mobile :");
+        break
+    case savings>5000 && savings <10000:
+        console.log("Buy Basic mobile");
+        break
+    default:
+        console.log("you can't afford mobile phone now");
+}*/
+//for in loop
+/*const person={
+    name:"abu",
+    age: 20,
+    sex: 'male'
+}
+
+
+
+
+
+
+
 for(let fruit of arr)
    console.log(fruit)
 //objects for loop in for..in
