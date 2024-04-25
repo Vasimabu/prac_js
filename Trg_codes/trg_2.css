@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+table{
+    background-color: bisque;
+}
+th{
+    text-emphasis-color: red;
+    text-align: center;
+}
+button{
+    border-radius: 25px;
+    background-color: cadetblue;
+}
