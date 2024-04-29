@@ -138,3 +138,28 @@ for(i=0;i<a.length;i++){
 //if(count==2)
 //console.log(count);
 //console.log(value);
+
+/*You are given an array of ids of prisoners. The jail authority found that there are some prisoners of same id. Your task is to help the authority in finding the common ids.
+Input Description:
+First line contains a number ‘n’ representing no of prisoners. Next line contains n space separated numbers.
+Output Description:
+Print the ids which are not unique. Print -1 if all ids are unique
+Sample Input :
+7
+1 1 11 121 131 141 98
+Sample Output :
+1*/
+
+//solvable
+
+/*let user=Number(prompt("enter the number"))
+let a=[]
+for(i=1;i<=user;i++){
+     let n=Number(prompt("enter the array"));
+     a.push(n);
+}
+for(i=0;i<a.length;i++)  
+      for(j=0;j<i;j++)
+           if(i!=j)
+                if(a[i]==a[j])
+                     console.log("1")*/
