@@ -81,3 +81,60 @@ console.log(str)
 let str3="g,t,j,r"
 let arr3=str3.split(',')
 console.log(arr3)
+
+//guvi array problems
+//3.
+/*Sample Input :
+3
+7 4 9
+Sample Output :
+3
+*/
+/*let user=Number(prompt("enter the fruits"))
+let a=[]
+let count=0
+for(i=1;i<=user;i++){
+     let n=Number(prompt("enter the fruits"));
+     a.push(n)
+     count=+i
+}
+console.log(count);
+*/
+
+/*4.Input Description:
+First line contains a number denoting size of array ‘n’.Next line contains n space separated numbers
+Output Description:
+Print the number which is repeated twice
+Sample Input :
+5
+13 12 13 12 13
+Sample Output :
+12*/
+
+// solvable
+
+let user=Number(prompt("enter the number"))
+let a=[]
+for(i=1;i<=user;i++){
+     let n=Number(prompt("enter the array"));
+     a.push(n);
+}
+
+let value=0
+let count=0
+for(i=0;i<a.length;i++){
+     for(j=0;j<i;j++){
+           //if(i!=j)
+                if(a[i]==a[j])
+                     count=count+1
+     if(count==2)
+           console.log(a[i]);
+               //console.log(count)
+          }
+    //if(count==2)
+      //   value=a[i]
+    //console.log(value);
+}
+//if(count==2)
+//console.log(count);
+//console.log(value);
