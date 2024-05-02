@@ -163,3 +163,23 @@ for(i=0;i<a.length;i++)
            if(i!=j)
                 if(a[i]==a[j])
                      console.log("1")*/
+//array methods
+/*var array=[1,2,3,4,5] 
+let obj={id:1}
+let other= undefined
+let string="abu"              
+function checkIfArray(val){
+     if(typeof val=="string"){
+          console.log("it is an string");
+     }
+     else if(typeof val=="number"){
+          console.log("it is an number");
+     }
+     else if(typeof val=="undefined"){
+          console.log("it is an undefined");
+     }
+     else{
+          console.log("it is an array");
+     }
+}
+checkIfArray(string)*/
