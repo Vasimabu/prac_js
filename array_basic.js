@@ -183,3 +183,26 @@ function checkIfArray(val){
      }
 }
 checkIfArray(string)*/
+// array adding element new methods
+/*var array = [1,2,3,4,5]
+//M1
+array.push("Apple")
+array[array.length]="biscuit"
+console.log(array);*/
+//array index
+/*var arr=["a","b","c","d"]
+let result =arr.indexOf("d")
+console.log(result);*/
+//searching inbdex will not showed 
+/*var arr=["a","b","c","d"]
+let result =arr.indexOf("z")//consume -1 index
+console.log(result)*/
+/*var items = ["milk","bread","sugar"]
+function checkForProduct(){
+     if(items.indexOf("water")==-1){
+          console.log("item doesnt exist");
+     }else{
+          console.log("item exists");
+     }
+}
+checkForProduct("banana")*/
