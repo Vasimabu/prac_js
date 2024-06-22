@@ -119,3 +119,19 @@ console.log(myMother,mySister,mySelf);*/
   }
 const mySelf = new Person("Johnny", "Rally", 22, "green");
 console.log(mySelf);*/
+
+//display the property and value in html page use Objecty.values() methods
+
+// Create an Object
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  };
+  
+  // Create an Array
+const myarray = Object.values(person);
+console.log(myarray);
+
+const mylist = Object.values(person);
+console.log(mylist);
