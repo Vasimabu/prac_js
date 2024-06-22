@@ -135,3 +135,41 @@ console.log(myarray);
 
 const mylist = Object.values(person);
 console.log(mylist);
+
+
+//object destructuring
+
+const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+  }
+
+  /*const{name,age,city,isalive=true} = person
+  console.log(name,age ,city);
+  console.log(name,age ,city,isalive);*/
+
+  //object key name will be change
+//Ex. const{name,age,oldkeyword : newkeyword}=person
+
+/*const{name,age,city:country}=person
+console.log(name,age,country);*/
+
+//print all values 
+
+/*const{name, ...remainingdetail}=person
+console.log(name,remainingdetail);
+*/
+
+//object frameing
+
+/*function person_det(personobj) {
+    console.log(`hello my name is ${personobj.name} and my age is ${personobj.age} am from ${personobj.city}`);
+}
+person_det(person)*/
+//another method of framing
+
+function person_det({name,age,city}) {
+    console.log(`hello my name is ${name} and my age is ${age} am from ${city}`);
+}
+person_det(person)
